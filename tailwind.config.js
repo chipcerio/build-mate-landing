@@ -16,7 +16,7 @@ module.exports = {
         'wokka-dark-gray': '#E5E5E5',
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-inter)', 'Inter', 'system-ui', 'sans-serif'],
       },
     },
   },
