@@ -18,6 +18,9 @@ module.exports = {
       fontFamily: {
         sans: ['var(--font-inter)', 'Inter', 'system-ui', 'sans-serif'],
       },
+      fontWeight: {
+        'light': '300',
+      },
     },
   },
   plugins: [],
