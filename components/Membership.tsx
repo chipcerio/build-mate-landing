@@ -6,7 +6,7 @@ export default function Membership() {
     <section className="section-padding bg-white">
       <div className="container-custom">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-4">
             Become wokka member like you want
           </h2>
           <p className="text-gray-600 text-sm">

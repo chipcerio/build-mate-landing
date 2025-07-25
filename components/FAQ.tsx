@@ -40,7 +40,7 @@ export default function FAQ() {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left Column - Heading */}
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+            <h2 className="text-4xl md:text-5xl font-light text-gray-900">
               Got any questions? We have got answers.
             </h2>
           </div>
