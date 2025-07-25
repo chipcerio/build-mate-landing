@@ -58,7 +58,7 @@ export default function Footer() {
             
             {/* Copyright */}
             <p className="text-gray-500 text-sm">
-              2024 © WeFix Inc. | All Rights Reserved
+              2025 © WeFix Inc. | All Rights Reserved
             </p>
           </div>
         </div>

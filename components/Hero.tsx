@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="container-custom">
         <div className="text-center max-w-4xl mx-auto">
           {/* Headline */}
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-gray-900 mb-6">
             We're making a difference to people's lives
           </h1>
           

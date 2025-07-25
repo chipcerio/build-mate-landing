@@ -26,7 +26,7 @@ export default function Team() {
         <div className="text-center">
           {/* Header */}
           <div className="mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            <h2 className="text-4xl md:text-5xl font-light text-white mb-4">
               We're here, there, everywhere
             </h2>
             <p className="text-white/80 text-sm">

@@ -5,7 +5,7 @@ export default function Mission() {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left Column - Heading */}
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+            <h2 className="text-4xl md:text-5xl font-light text-gray-900">
               Our mission
             </h2>
           </div>
