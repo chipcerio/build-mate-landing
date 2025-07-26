@@ -6,18 +6,18 @@ export default function Mission() {
           {/* Left Column - Heading */}
           <div>
             <h2 className="text-4xl md:text-5xl font-light text-gray-900">
-              Our mission
+              Nulla ut lectus
             </h2>
           </div>
           
           {/* Right Column - Content */}
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              At Wokka, we're forging the future of event tech through dynamic relationships all over the world. We believe in hiring creative go-getters - then getting out of their way. We're committed to top of market pay for top talent, building our team with partners who are passionate about solving tough problems in new ways.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at semper elit, id condimentum leo. Aenean erat lorem, laoreet a nisi pharetra, dignissim pretium leo.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
-              We are a team of smart, fun, hard-working individuals. Find us working remotely across Canada and the United States, or digitally nomad-ing across the globe, with the shared goal of seeing creators thrive.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at semper elit, id condimentum leo. Aenean erat lorem, laoreet a nisi pharetra, dignissim pretium leo. Praesent a arcu eget erat venenatis efficitur vitae vel ex. Fusce ac faucibus tellus. Praesent gravida, mauris porttitor hendrerit condimentum, nunc felis faucibus felis, ac tristique metus elit nec sem.
             </p>
           </div>
         </div>

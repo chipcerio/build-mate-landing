@@ -41,7 +41,7 @@ export default function FAQ() {
           {/* Left Column - Heading */}
           <div>
             <h2 className="text-4xl md:text-5xl font-light text-gray-900">
-              Got any questions? We have got answers.
+              Vestibulum et el libero? Nunc elementum varius.
             </h2>
           </div>
           

@@ -7,10 +7,10 @@ export default function Membership() {
       <div className="container-custom">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-4">
-            Become wokka member like you want
+            Lorem ipsum dolor sit amet consectetur.
           </h2>
           <p className="text-gray-600 text-sm">
-            Pay workers securely, with confidence. Hire vetted, qualified workers for your projects.
+            Pellentesque congue justo sed ex pretium, vitae ornare lorem hendrerit.
           </p>
         </div>
         
