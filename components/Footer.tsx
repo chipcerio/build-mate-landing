@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-white border-t border-gray-200">
       <div className="container-custom">
-        <div className="py-12">
+        <div className="py-12 px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-3 gap-8">
             {/* Logo and Description */}
             <div className="space-y-4">
@@ -22,7 +22,7 @@ export default function Footer() {
             <div className="w-full"></div>
             
             {/* Navigation Links */}
-            <div className="grid grid-cols-2 gap-8">
+            <div className="grid grid-cols-2 gap-4 sm:gap-8">
               <div className="space-y-3">
                 <a href="#" className="block text-gray-600 hover:text-wokka-orange transition-colors text-sm">About</a>
                 <a href="#" className="block text-gray-600 hover:text-wokka-orange transition-colors text-sm">Careers</a>
@@ -38,7 +38,7 @@ export default function Footer() {
           </div>
           
           {/* Bottom Section */}
-          <div className="border-t border-gray-200 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+          <div className="border-t border-gray-200 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 px-0">
             {/* Social Media Icons */}
             <div className="flex space-x-4">
               <a href="#" className="w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center hover:bg-wokka-orange transition-colors">
