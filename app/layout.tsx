@@ -10,7 +10,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Wokka - Making a difference to people\'s lives',
+  title: 'PickAxe DH - Making a difference to people\'s lives',
   description: 'Creating a way to connect people ready to work, with people who need work done',
 }
 

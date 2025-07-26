@@ -10,14 +10,16 @@ export default function Footer() {
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <div className="w-8 h-8 bg-wokka-orange rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">W</span>
+                  <span className="text-white font-bold text-lg">Px</span>
                 </div>
-                <span className="text-xl font-bold text-gray-900">Wokka</span>
+                <span className="text-xl font-bold text-gray-900">PickAxe DH</span>
               </div>
               <p className="text-gray-600 text-sm leading-relaxed">
                 Lorem ipsum dolor sit amet, consectetur. Egestas cursus commodo consequat id. Consectetur sed eget dolor.
               </p>
             </div>
+            
+            <div className="w-full"></div>
             
             {/* Navigation Links */}
             <div className="grid grid-cols-2 gap-8">
@@ -58,7 +60,7 @@ export default function Footer() {
             
             {/* Copyright */}
             <p className="text-gray-500 text-sm">
-              2025 © WeFix Inc. | All Rights Reserved
+              2025 © DigitalHorizon Inc. | All Rights Reserved
             </p>
           </div>
         </div>
