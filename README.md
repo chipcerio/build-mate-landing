@@ -1,10 +1,10 @@
-# Wokka Landing Page
+# BuildMate Landing Page
 
-A modern, responsive landing page for Wokka built with Next.js, TypeScript, and Tailwind CSS.
+A modern, responsive landing page for BuildMate built with Next.js, TypeScript, and Tailwind CSS.
 
 ## Features
 
-- 🎨 Modern, clean design matching the original Wokka branding
+- 🎨 Modern, clean design matching the original BuildMate branding
 - 📱 Fully responsive design
 - ⚡ Built with Next.js 14 and TypeScript
 - 🎯 Optimized for performance and SEO
@@ -32,7 +32,7 @@ A modern, responsive landing page for Wokka built with Next.js, TypeScript, and 
 
 ```bash
 git clone <repository-url>
-cd wokka-landing
+cd build-mate-landing
 ```
 
 2. Install dependencies:
