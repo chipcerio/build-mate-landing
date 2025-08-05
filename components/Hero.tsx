@@ -45,6 +45,24 @@ export default function Hero() {
               />
             </div>
           </div>
+
+          {/* App Store Badges */}
+          <div className='flex justify-center items-center gap-6 mt-12'>
+            <Image
+              src='/images/appstore.svg'
+              alt='Download on the App Store'
+              width={150}
+              height={50}
+              className='h-12 w-auto'
+            />
+            <Image
+              src='/images/playstore.png'
+              alt='Get it on Google Play'
+              width={150}
+              height={50}
+              className='h-12 w-auto'
+            />
+          </div>
         </div>
       </div>
     </section>
