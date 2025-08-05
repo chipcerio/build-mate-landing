@@ -1,117 +1,113 @@
-import Image from 'next/image'
-import { Check } from 'lucide-react'
+import Image from 'next/image';
+import { Check } from 'lucide-react';
 
 export default function Membership() {
   return (
-    <section className="section-padding bg-white">
-      <div className="container-custom">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-4">
+    <section className='section-padding bg-white'>
+      <div className='container-custom'>
+        <div className='text-center mb-12'>
+          <h2 className='text-4xl md:text-5xl font-light text-gray-900 mb-4'>
             Lorem ipsum dolor sit amet consectetur.
           </h2>
-          <p className="text-gray-600 text-sm">
+          <p className='text-gray-600 text-sm'>
             Pellentesque congue justo sed ex pretium, vitae ornare lorem hendrerit.
           </p>
         </div>
-        
-        <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+
+        <div className='grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto'>
           {/* Client Column */}
-          <div className="bg-wokka-gray rounded-lg p-8">
-            <div className="text-center mb-6">
-              <span className="inline-block bg-wokka-orange text-white text-xs px-3 py-1 rounded-full mb-4">
+          <div className='bg-wokka-gray rounded-lg p-8'>
+            <div className='text-center mb-6'>
+              <span className='inline-block bg-wokka-orange text-white text-xs px-3 py-1 rounded-full mb-4'>
                 Client
               </span>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
+              <h3 className='text-xl font-bold text-gray-900 mb-2'>
                 Award-winning courses to explore at your own pace
               </h3>
             </div>
-            
-            <div className="space-y-4 mb-8">
-              <div className="flex items-start space-x-3">
-                <Check className="w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0" />
-                <p className="text-gray-700 text-sm">
+
+            <div className='space-y-4 mb-8'>
+              <div className='flex items-start space-x-3'>
+                <Check className='w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0' />
+                <p className='text-gray-700 text-sm'>
                   Access expert-crafted lessons, games, and podcasts that spark real conversation.
                 </p>
               </div>
-              <div className="flex items-start space-x-3">
-                <Check className="w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0" />
-                <p className="text-gray-700 text-sm">
+              <div className='flex items-start space-x-3'>
+                <Check className='w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0' />
+                <p className='text-gray-700 text-sm'>
                   Access expert-crafted lessons, games, and podcasts.
                 </p>
               </div>
-              <div className="flex items-start space-x-3">
-                <Check className="w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0" />
-                <p className="text-gray-700 text-sm">
+              <div className='flex items-start space-x-3'>
+                <Check className='w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0' />
+                <p className='text-gray-700 text-sm'>
                   Access expert-crafted lessons, games, and podcasts.
                 </p>
               </div>
             </div>
-            
-            <div className="text-center mb-6">
-              <button className="btn-primary w-full">
-                Join as a Client
-              </button>
+
+            <div className='text-center mb-6'>
+              <button className='btn-primary w-full'>Join as a Client</button>
             </div>
-            
-            <div className="relative h-48 rounded-lg overflow-hidden">
+
+            <div className='relative h-48 rounded-lg overflow-hidden'>
               <Image
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Man with beard and cap looking at phone next to yellow truck"
+                src='https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+                alt='Man with beard and cap looking at phone next to yellow truck'
                 fill
-                className="object-cover"
+                className='object-cover'
               />
             </div>
           </div>
-          
+
           {/* Service Provider Column */}
-          <div className="bg-wokka-gray rounded-lg p-8">
-            <div className="text-center mb-6">
-              <span className="inline-block bg-wokka-orange text-white text-xs px-3 py-1 rounded-full mb-4">
+          <div className='bg-wokka-gray rounded-lg p-8'>
+            <div className='text-center mb-6'>
+              <span className='inline-block bg-wokka-orange text-white text-xs px-3 py-1 rounded-full mb-4'>
                 Service Provider
               </span>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
+              <h3 className='text-xl font-bold text-gray-900 mb-2'>
                 Award-winning courses to explore at your own pace
               </h3>
             </div>
-            
-            <div className="space-y-4 mb-8">
-              <div className="flex items-start space-x-3">
-                <Check className="w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0" />
-                <p className="text-gray-700 text-sm">
+
+            <div className='space-y-4 mb-8'>
+              <div className='flex items-start space-x-3'>
+                <Check className='w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0' />
+                <p className='text-gray-700 text-sm'>
                   Access expert-crafted lessons, games, and podcasts that spark real conversation.
                 </p>
               </div>
-              <div className="flex items-start space-x-3">
-                <Check className="w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0" />
-                <p className="text-gray-700 text-sm">
+              <div className='flex items-start space-x-3'>
+                <Check className='w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0' />
+                <p className='text-gray-700 text-sm'>
                   Access expert-crafted lessons, games, and podcasts.
                 </p>
               </div>
-              <div className="flex items-start space-x-3">
-                <Check className="w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0" />
-                <p className="text-gray-700 text-sm">
+              <div className='flex items-start space-x-3'>
+                <Check className='w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0' />
+                <p className='text-gray-700 text-sm'>
                   Access expert-crafted lessons, games, and podcasts.
                 </p>
               </div>
             </div>
-            
-            <div className="text-center mb-6">
-              <button className="btn-primary w-full">
-                Join as a Service Provider
-              </button>
+
+            <div className='text-center mb-6'>
+              <button className='btn-primary w-full'>Join as a Service Provider</button>
             </div>
-            
-            <div className="relative h-48 rounded-lg overflow-hidden">
+
+            <div className='relative h-48 rounded-lg overflow-hidden'>
               <Image
-                src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Man with beard and glasses working in workshop"
+                src='https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+                alt='Man with beard and glasses working in workshop'
                 fill
-                className="object-cover"
+                className='object-cover'
               />
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
-} 
+  );
+}
