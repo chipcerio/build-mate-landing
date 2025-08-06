@@ -10,9 +10,9 @@ interface FAQItem {
 
 const faqItems: FAQItem[] = [
   {
-    question: 'Eligibility Criteria for Organizations',
+    question: 'How to become Partners?',
     answer:
-      'The DHI process is simple and collaborative. It begins with a 15-min call to understand your goals and inspiration. We update you every two days through written messages or Zoom videos, depending on the topic, and am always available for a chat.',
+      "The Px process is simple and collaborative. Reach out to us via phone, email, or to our social media accounts. We'll schedule you for Partner assessment.",
   },
   {
     question: 'How does the matching process work?',
@@ -22,12 +22,12 @@ const faqItems: FAQItem[] = [
   {
     question: 'What services are available on the platform?',
     answer:
-      'We offer a wide range of services including cleaning, maintenance, event planning, technical support, and many more. New service categories are added regularly.',
+      'We offer a wide range of services including cleaning, maintenance, renovations, event planning, technical support, and many more. New service categories are added regularly.',
   },
   {
     question: 'How do you ensure quality and safety?',
     answer:
-      'All service providers undergo thorough background checks, skill verification, and customer reviews. We also provide insurance coverage for peace of mind.',
+      'All service providers undergo thorough background checks, skill verification, and customer reviews.',
   },
   {
     question: 'What are the payment terms?',
@@ -45,9 +45,7 @@ export default function FAQ() {
         <div className='grid lg:grid-cols-2 gap-12 items-start'>
           {/* Left Column - Heading */}
           <div>
-            <h2 className='text-4xl md:text-5xl font-light text-gray-900'>
-              Got any questions?
-            </h2>
+            <h2 className='text-4xl md:text-5xl font-light text-gray-900'>Got any questions?</h2>
           </div>
 
           {/* Right Column - FAQ Items */}
