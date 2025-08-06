@@ -1,23 +1,26 @@
-export default function WhoWeAre() {
+import Image from 'next/image';
+
+export default function HireWorkers() {
   return (
     <section className='section-padding bg-wokka-light-yellow'>
       <div className='container-custom'>
         <div className='grid lg:grid-cols-2 gap-12 items-start'>
           {/* Left Column - Heading */}
           <div>
-            <h2 className='text-4xl md:text-5xl font-light text-gray-900'>Our solution</h2>
+            <h2 className='text-4xl md:text-5xl font-light text-gray-900'>Hire workers</h2>
+            <div className='mt-8'>
+              <Image
+                src='/images/undraw_hire_hadq.svg'
+                alt='Agreement illustration'
+                width={300}
+                height={260}
+                className='w-full max-w-xs mx-auto'
+              />
+            </div>
           </div>
 
           {/* Right Column - Content */}
           <div className='space-y-8'>
-            {/* Nested Section */}
-            <div className='bg-wokka-yellow rounded-lg p-6'>
-              <p className='text-sm text-gray-700 mb-4'>
-                We're a team who previously helped millions of people across the internet.
-              </p>
-              <button className='btn-primary text-sm px-4 py-2'>Connect us</button>
-            </div>
-
             {/* Main Content */}
             <div className='space-y-6'>
               <p className='text-lg text-gray-700 leading-relaxed font-light'>
