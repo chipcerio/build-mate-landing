@@ -7,12 +7,13 @@ export default function Hero() {
         <div className='text-center max-w-4xl mx-auto'>
           {/* Headline */}
           <h1 className='text-4xl md:text-5xl lg:text-6xl font-light text-gray-900 mb-6'>
-            Lorem ipsum dolor sit amet adipiscing elit
+            Find Jobs. Hire Workers. Rent Out Equipment. Grow Your Business. All in One App.
           </h1>
 
           {/* Sub-headline */}
           <p className='text-xl md:text-2xl text-gray-700 mb-12 max-w-3xl mx-auto'>
-            Aenean erat lorem laoreet a nisi pharetra dignissim pretium leo
+            PickAxe is the platform where projects begin, workers get paid, and partners grow their
+            income — all from your phone.
           </p>
 
           {/* Hero Image */}
