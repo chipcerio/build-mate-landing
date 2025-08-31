@@ -11,7 +11,7 @@ export default function OurSolution() {
           {/* Right Column - Content */}
           <div className='space-y-8'>
             {/* Nested Section */}
-            <div className='bg-wokka-yellow rounded-lg p-6'>
+            <div className='bg-pickaxe-pale-blue rounded-lg p-6'>
               <p className='text-sm text-gray-700 mb-4'>
                 We're a team who previously helped millions of people across the internet.
               </p>

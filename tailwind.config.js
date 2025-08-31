@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         'pickaxe-blue': '#006ED6',
-        'wokka-yellow': '#AFD8FF',
+        'pickaxe-pale-blue': '#AFD8FF',
         'wokka-light-orange': '#FFE5D4',
         'pickaxe-light-blue': '#F5FBFE',
         'wokka-gray': '#F8F9FA',

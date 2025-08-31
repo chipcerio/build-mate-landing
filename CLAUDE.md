@@ -31,7 +31,7 @@ This is a **Next.js 14 App Router** landing page for BuildMate/PickAxe DH built 
 ### Styling System:
 - **Brand colors**: 
   - `pickaxe-blue`: #FF6B35 (primary)
-  - `wokka-yellow`: #FFB347 (secondary)
+  - `pickaxe-pale-blue`: #FFB347 (secondary)
   - `wokka-light-orange`: #FFE5D4 (backgrounds)
   - `pickaxe-light-blue`: #FFF3E0 (backgrounds)
 - **Container pattern**: Uses `container-custom` class for consistent page width
