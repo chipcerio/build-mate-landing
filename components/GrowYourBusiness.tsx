@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function GrowYourBusiness() {
   return (
-    <section className='section-padding bg-wokka-light-yellow'>
+    <section className='section-padding bg-pickaxe-light-blue'>
       <div className='container-custom'>
         <div className='grid lg:grid-cols-2 gap-12 items-start'>
           {/* Left Column - Heading */}

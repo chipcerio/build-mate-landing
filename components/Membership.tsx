@@ -18,7 +18,7 @@ export default function Membership() {
           {/* Client Column */}
           <div className='bg-wokka-gray rounded-lg p-8'>
             <div className='text-center mb-6'>
-              <span className='inline-block bg-wokka-orange text-white text-xs px-3 py-1 rounded-full mb-4'>
+              <span className='inline-block bg-pickaxe-blue text-white text-xs px-3 py-1 rounded-full mb-4'>
                 Client
               </span>
               <h3 className='text-xl font-bold text-gray-900 mb-2'>
@@ -28,19 +28,19 @@ export default function Membership() {
 
             <div className='space-y-4 mb-8'>
               <div className='flex items-start space-x-3'>
-                <Check className='w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0' />
+                <Check className='w-5 h-5 text-pickaxe-blue mt-0.5 flex-shrink-0' />
                 <p className='text-gray-700 text-sm'>
                   Access expert-crafted lessons, games, and podcasts that spark real conversation.
                 </p>
               </div>
               <div className='flex items-start space-x-3'>
-                <Check className='w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0' />
+                <Check className='w-5 h-5 text-pickaxe-blue mt-0.5 flex-shrink-0' />
                 <p className='text-gray-700 text-sm'>
                   Access expert-crafted lessons, games, and podcasts.
                 </p>
               </div>
               <div className='flex items-start space-x-3'>
-                <Check className='w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0' />
+                <Check className='w-5 h-5 text-pickaxe-blue mt-0.5 flex-shrink-0' />
                 <p className='text-gray-700 text-sm'>
                   Access expert-crafted lessons, games, and podcasts.
                 </p>
@@ -64,7 +64,7 @@ export default function Membership() {
           {/* Provider Column */}
           <div className='bg-wokka-gray rounded-lg p-8'>
             <div className='text-center mb-6'>
-              <span className='inline-block bg-wokka-orange text-white text-xs px-3 py-1 rounded-full mb-4'>
+              <span className='inline-block bg-pickaxe-blue text-white text-xs px-3 py-1 rounded-full mb-4'>
                 Service Provider
               </span>
               <h3 className='text-xl font-bold text-gray-900 mb-2'>
@@ -74,19 +74,19 @@ export default function Membership() {
 
             <div className='space-y-4 mb-8'>
               <div className='flex items-start space-x-3'>
-                <Check className='w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0' />
+                <Check className='w-5 h-5 text-pickaxe-blue mt-0.5 flex-shrink-0' />
                 <p className='text-gray-700 text-sm'>
                   Access expert-crafted lessons, games, and podcasts that spark real conversation.
                 </p>
               </div>
               <div className='flex items-start space-x-3'>
-                <Check className='w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0' />
+                <Check className='w-5 h-5 text-pickaxe-blue mt-0.5 flex-shrink-0' />
                 <p className='text-gray-700 text-sm'>
                   Access expert-crafted lessons, games, and podcasts.
                 </p>
               </div>
               <div className='flex items-start space-x-3'>
-                <Check className='w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0' />
+                <Check className='w-5 h-5 text-pickaxe-blue mt-0.5 flex-shrink-0' />
                 <p className='text-gray-700 text-sm'>
                   Access expert-crafted lessons, games, and podcasts.
                 </p>
@@ -110,7 +110,7 @@ export default function Membership() {
           {/* Partner Column */}
           <div className='bg-wokka-gray rounded-lg p-8'>
             <div className='text-center mb-6'>
-              <span className='inline-block bg-wokka-orange text-white text-xs px-3 py-1 rounded-full mb-4'>
+              <span className='inline-block bg-pickaxe-blue text-white text-xs px-3 py-1 rounded-full mb-4'>
                 Partner
               </span>
               <h3 className='text-xl font-bold text-gray-900 mb-2'>
@@ -120,19 +120,19 @@ export default function Membership() {
 
             <div className='space-y-4 mb-8'>
               <div className='flex items-start space-x-3'>
-                <Check className='w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0' />
+                <Check className='w-5 h-5 text-pickaxe-blue mt-0.5 flex-shrink-0' />
                 <p className='text-gray-700 text-sm'>
                   Access expert-crafted lessons, games, and podcasts that spark real conversation.
                 </p>
               </div>
               <div className='flex items-start space-x-3'>
-                <Check className='w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0' />
+                <Check className='w-5 h-5 text-pickaxe-blue mt-0.5 flex-shrink-0' />
                 <p className='text-gray-700 text-sm'>
                   Access expert-crafted lessons, games, and podcasts.
                 </p>
               </div>
               <div className='flex items-start space-x-3'>
-                <Check className='w-5 h-5 text-wokka-orange mt-0.5 flex-shrink-0' />
+                <Check className='w-5 h-5 text-pickaxe-blue mt-0.5 flex-shrink-0' />
                 <p className='text-gray-700 text-sm'>
                   Access expert-crafted lessons, games, and podcasts.
                 </p>

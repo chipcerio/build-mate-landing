@@ -9,7 +9,7 @@ export default function Footer() {
             {/* Logo and Description */}
             <div className='space-y-4'>
               <div className='flex items-center space-x-2'>
-                <div className='w-8 h-8 bg-wokka-orange rounded-lg flex items-center justify-center'>
+                <div className='w-8 h-8 bg-pickaxe-blue rounded-lg flex items-center justify-center'>
                   <span className='text-white font-bold text-lg'>Px</span>
                 </div>
                 <span className='text-xl font-bold text-gray-900'>PickAxe DH</span>
@@ -27,39 +27,39 @@ export default function Footer() {
               <div className='space-y-3'>
                 <a
                   href='#'
-                  className='block text-gray-600 hover:text-wokka-orange transition-colors text-sm'>
+                  className='block text-gray-600 hover:text-pickaxe-blue transition-colors text-sm'>
                   About
                 </a>
                 <a
                   href='#'
-                  className='block text-gray-600 hover:text-wokka-orange transition-colors text-sm'>
+                  className='block text-gray-600 hover:text-pickaxe-blue transition-colors text-sm'>
                   Careers
                 </a>
                 <a
                   href='#'
-                  className='block text-gray-600 hover:text-wokka-orange transition-colors text-sm'>
+                  className='block text-gray-600 hover:text-pickaxe-blue transition-colors text-sm'>
                   Community
                 </a>
                 <a
                   href='#'
-                  className='block text-gray-600 hover:text-wokka-orange transition-colors text-sm'>
+                  className='block text-gray-600 hover:text-pickaxe-blue transition-colors text-sm'>
                   Terms of Use
                 </a>
               </div>
               <div className='space-y-3'>
                 <a
                   href='#'
-                  className='block text-gray-600 hover:text-wokka-orange transition-colors text-sm'>
+                  className='block text-gray-600 hover:text-pickaxe-blue transition-colors text-sm'>
                   Privacy Policy
                 </a>
                 <a
                   href='#'
-                  className='block text-gray-600 hover:text-wokka-orange transition-colors text-sm'>
+                  className='block text-gray-600 hover:text-pickaxe-blue transition-colors text-sm'>
                   Announcements
                 </a>
                 <a
                   href='#'
-                  className='block text-gray-600 hover:text-wokka-orange transition-colors text-sm'>
+                  className='block text-gray-600 hover:text-pickaxe-blue transition-colors text-sm'>
                   Cookie Preferences
                 </a>
               </div>
@@ -72,27 +72,27 @@ export default function Footer() {
             <div className='flex space-x-4'>
               <a
                 href='#'
-                className='w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center hover:bg-wokka-orange transition-colors'>
+                className='w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center hover:bg-pickaxe-blue transition-colors'>
                 <Facebook className='w-4 h-4 text-white' />
               </a>
               <a
                 href='#'
-                className='w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center hover:bg-wokka-orange transition-colors'>
+                className='w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center hover:bg-pickaxe-blue transition-colors'>
                 <Linkedin className='w-4 h-4 text-white' />
               </a>
               <a
                 href='#'
-                className='w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center hover:bg-wokka-orange transition-colors'>
+                className='w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center hover:bg-pickaxe-blue transition-colors'>
                 <Instagram className='w-4 h-4 text-white' />
               </a>
               <a
                 href='#'
-                className='w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center hover:bg-wokka-orange transition-colors'>
+                className='w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center hover:bg-pickaxe-blue transition-colors'>
                 <Twitter className='w-4 h-4 text-white' />
               </a>
               <a
                 href='#'
-                className='w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center hover:bg-wokka-orange transition-colors'>
+                className='w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center hover:bg-pickaxe-blue transition-colors'>
                 <Youtube className='w-4 h-4 text-white' />
               </a>
             </div>

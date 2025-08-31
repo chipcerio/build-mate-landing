@@ -15,11 +15,11 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-wokka-orange text-white px-6 py-3 rounded-lg font-medium hover:bg-orange-600 transition-colors duration-200;
+    @apply bg-pickaxe-blue text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-600 transition-colors duration-200;
   }
 
   .btn-secondary {
-    @apply bg-white text-wokka-orange border border-wokka-orange px-6 py-3 rounded-lg font-medium hover:bg-wokka-orange hover:text-white transition-colors duration-200;
+    @apply bg-white text-pickaxe-blue border border-pickaxe-blue px-6 py-3 rounded-lg font-medium hover:bg-pickaxe-blue hover:text-white transition-colors duration-200;
   }
 
   .section-padding {

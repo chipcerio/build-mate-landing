@@ -13,7 +13,7 @@ export default function Header() {
           {/* Logo */}
           <div className='flex items-center'>
             <div className='flex items-center space-x-2'>
-              <div className='w-8 h-8 bg-wokka-orange rounded-lg flex items-center justify-center'>
+              <div className='w-8 h-8 bg-pickaxe-blue rounded-lg flex items-center justify-center'>
                 <span className='text-white font-bold text-lg'>Px</span>
               </div>
               <span className='text-xl font-bold text-gray-900'>PickAxe DH</span>
@@ -22,16 +22,16 @@ export default function Header() {
 
           {/* Navigation */}
           <nav className='hidden md:flex items-center space-x-8'>
-            <a href='#' className='text-gray-700 hover:text-wokka-orange transition-colors'>
+            <a href='#' className='text-gray-700 hover:text-pickaxe-blue transition-colors'>
               Home
             </a>
-            <a href='#' className='text-gray-700 hover:text-wokka-orange transition-colors'>
+            <a href='#' className='text-gray-700 hover:text-pickaxe-blue transition-colors'>
               Services
             </a>
-            <a href='#' className='text-gray-700 hover:text-wokka-orange transition-colors'>
+            <a href='#' className='text-gray-700 hover:text-pickaxe-blue transition-colors'>
               About
             </a>
-            <a href='#' className='text-gray-700 hover:text-wokka-orange transition-colors'>
+            <a href='#' className='text-gray-700 hover:text-pickaxe-blue transition-colors'>
               Blog
             </a>
           </nav>
@@ -41,7 +41,7 @@ export default function Header() {
             <div className='relative'>
               <button
                 onClick={() => setIsLocationOpen(!isLocationOpen)}
-                className='flex items-center space-x-2 text-gray-700 hover:text-wokka-orange transition-colors'>
+                className='flex items-center space-x-2 text-gray-700 hover:text-pickaxe-blue transition-colors'>
                 <MapPinned className='w-5 h-5' />
                 <span>Location</span>
                 <ChevronDown className='w-4 h-4' />

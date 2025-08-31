@@ -41,7 +41,7 @@ const teamMembers: TeamMember[] = [
 
 export default function Team() {
   return (
-    <section className='section-padding bg-wokka-orange'>
+    <section className='section-padding bg-pickaxe-blue'>
       <div className='container-custom'>
         <div className='text-center'>
           {/* Header */}

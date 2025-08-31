@@ -8,12 +8,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'wokka-orange': '#FF6B35',
-        'wokka-yellow': '#FFB347',
+        'pickaxe-blue': '#006ED6',
+        'wokka-yellow': '#AFD8FF',
         'wokka-light-orange': '#FFE5D4',
-        'wokka-light-yellow': '#FFF3E0',
-        'wokka-gray': '#F5F5F5',
+        'pickaxe-light-blue': '#F5FBFE',
+        'wokka-gray': '#F8F9FA',
         'wokka-dark-gray': '#E5E5E5',
+        'pickaxe-white': '#FFFFFF',
       },
       fontFamily: {
         sans: ['var(--font-inter)', 'Inter', 'system-ui', 'sans-serif'],

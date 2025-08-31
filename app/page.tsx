@@ -1,7 +1,7 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Mission from '@/components/Mission';
-import WhoWeAre from '@/components/WhoWeAre';
+import OurSolution from '@/components/OurSolution';
 import FindJobs from '@/components/FindJobs';
 import HireWorkers from '@/components/HireWorkers';
 import RentEquipment from '@/components/RentEquipment';
@@ -17,7 +17,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Mission />
-      <WhoWeAre />
+      <OurSolution />
       <FindJobs />
       <HireWorkers />
       <RentEquipment />
