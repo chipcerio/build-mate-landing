@@ -1,6 +1,6 @@
 export default function OurSolution() {
   return (
-    <section className='section-padding bg-pickaxe-light-blue'>
+    <section id='solution' className='section-padding bg-pickaxe-light-blue'>
       <div className='container-custom'>
         <div className='grid lg:grid-cols-2 gap-12 items-start'>
           {/* Left Column - Heading */}

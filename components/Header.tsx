@@ -25,14 +25,14 @@ export default function Header() {
             <a href='#' className='text-gray-700 hover:text-pickaxe-blue transition-colors'>
               Home
             </a>
-            <a href='#' className='text-gray-700 hover:text-pickaxe-blue transition-colors'>
-              Services
+            <a href='#mission' className='text-gray-700 hover:text-pickaxe-blue transition-colors'>
+              Mission
             </a>
-            <a href='#' className='text-gray-700 hover:text-pickaxe-blue transition-colors'>
-              About
+            <a href='#solution' className='text-gray-700 hover:text-pickaxe-blue transition-colors'>
+              Solution
             </a>
-            <a href='#' className='text-gray-700 hover:text-pickaxe-blue transition-colors'>
-              Blog
+            <a href='#faq' className='text-gray-700 hover:text-pickaxe-blue transition-colors'>
+              FAQ
             </a>
           </nav>
 

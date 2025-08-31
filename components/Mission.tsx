@@ -1,6 +1,6 @@
 export default function Mission() {
   return (
-    <section className='section-padding bg-pickaxe-gray'>
+    <section id='mission' className='section-padding bg-pickaxe-gray'>
       <div className='container-custom'>
         <div className='grid lg:grid-cols-2 gap-12 items-start'>
           {/* Left Column - Heading */}

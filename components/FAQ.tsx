@@ -40,7 +40,7 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <section className='section-padding bg-white'>
+    <section id='faq' className='section-padding bg-white'>
       <div className='container-custom'>
         <div className='grid lg:grid-cols-2 gap-12 items-start'>
           {/* Left Column - Heading */}
