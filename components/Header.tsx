@@ -38,7 +38,7 @@ export default function Header() {
 
           {/* Country Selector and Contact Button */}
           <div className='flex items-center space-x-4'>
-            <div className='relative'>
+            {/* <div className='relative'>
               <button
                 onClick={() => setIsLocationOpen(!isLocationOpen)}
                 className='flex items-center space-x-2 text-gray-700 hover:text-pickaxe-blue transition-colors'>
@@ -62,7 +62,7 @@ export default function Header() {
                   </div>
                 </div>
               )}
-            </div>
+            </div> */}
 
             <button className='btn-primary'>Contact us</button>
           </div>
