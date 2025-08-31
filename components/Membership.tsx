@@ -16,7 +16,7 @@ export default function Membership() {
 
         <div className='grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto'>
           {/* Client Column */}
-          <div className='bg-wokka-gray rounded-lg p-8'>
+          <div className='bg-pickaxe-gray rounded-lg p-8'>
             <div className='text-center mb-6'>
               <span className='inline-block bg-pickaxe-blue text-white text-xs px-3 py-1 rounded-full mb-4'>
                 Client
@@ -62,7 +62,7 @@ export default function Membership() {
           </div>
 
           {/* Provider Column */}
-          <div className='bg-wokka-gray rounded-lg p-8'>
+          <div className='bg-pickaxe-gray rounded-lg p-8'>
             <div className='text-center mb-6'>
               <span className='inline-block bg-pickaxe-blue text-white text-xs px-3 py-1 rounded-full mb-4'>
                 Service Provider
@@ -108,7 +108,7 @@ export default function Membership() {
           </div>
 
           {/* Partner Column */}
-          <div className='bg-wokka-gray rounded-lg p-8'>
+          <div className='bg-pickaxe-gray rounded-lg p-8'>
             <div className='text-center mb-6'>
               <span className='inline-block bg-pickaxe-blue text-white text-xs px-3 py-1 rounded-full mb-4'>
                 Partner

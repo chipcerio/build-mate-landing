@@ -97,7 +97,7 @@ The color scheme is defined in `tailwind.config.js`:
 
 - `pickaxe-blue`: #FF6B35
 - `pickaxe-pale-blue`: #FFB347
-- `wokka-light-orange`: #FFE5D4
+- `pickaxe-light-orange`: #FFE5D4
 - `pickaxe-light-blue`: #FFF3E0
 
 ### Content

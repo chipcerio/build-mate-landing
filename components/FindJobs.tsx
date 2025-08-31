@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function FindJobs() {
   return (
-    <section className='section-padding bg-wokka-gray'>
+    <section className='section-padding bg-pickaxe-gray'>
       <div className='container-custom'>
         <div className='grid lg:grid-cols-2 gap-12 items-start'>
           {/* Left Column - Heading */}

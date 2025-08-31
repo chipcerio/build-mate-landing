@@ -51,10 +51,10 @@ export default function FAQ() {
           {/* Right Column - FAQ Items */}
           <div className='space-y-4'>
             {faqItems.map((item, index) => (
-              <div key={index} className='bg-wokka-gray rounded-lg'>
+              <div key={index} className='bg-pickaxe-gray rounded-lg'>
                 <button
                   onClick={() => setOpenIndex(openIndex === index ? -1 : index)}
-                  className='w-full px-6 py-4 text-left flex items-center justify-between hover:bg-wokka-dark-gray transition-colors rounded-lg'>
+                  className='w-full px-6 py-4 text-left flex items-center justify-between hover:bg-pickaxe-dark-gray transition-colors rounded-lg'>
                   <span className='font-medium text-gray-900'>{item.question}</span>
                   {openIndex === index ? (
                     <Minus className='w-5 h-5 text-gray-500' />
