@@ -21,16 +21,11 @@ export default function OurSolution() {
             {/* Main Content */}
             <div className='space-y-6'>
               <p className='text-lg text-gray-700 leading-relaxed font-light'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at semper elit, id
-                condimentum leo. Aenean erat lorem, laoreet a nisi pharetra, dignissim pretium leo.
+                PickAxe is a comprehensive marketplace platform that connects the general public with skilled workers, equipment rentals, raw materials suppliers, and business partners in one seamless experience.
               </p>
 
               <p className='text-lg text-gray-700 leading-relaxed font-light'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at semper elit, id
-                condimentum leo. Aenean erat lorem, laoreet a nisi pharetra, dignissim pretium leo.
-                Praesent a arcu eget erat venenatis efficitur vitae vel ex. Fusce ac faucibus
-                tellus. Praesent gravida, mauris porttitor hendrerit condimentum, nunc felis
-                faucibus felis, ac tristique metus elit nec sem.
+                Our platform features dedicated mobile apps for clients and skilled workers, alongside web applications for business partners and administrators. We prioritize partners' resources in our recommendations, helping maximize utilization of underused business resources while providing clients with quality, vetted services at transparent pricing.
               </p>
             </div>
           </div>

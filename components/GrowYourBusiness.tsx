@@ -24,16 +24,11 @@ export default function GrowYourBusiness() {
             {/* Main Content */}
             <div className='space-y-6'>
               <p className='text-lg text-gray-700 leading-relaxed font-light'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at semper elit, id
-                condimentum leo. Aenean erat lorem, laoreet a nisi pharetra, dignissim pretium leo.
+                PickAxe empowers businesses and partners to unlock new revenue streams by maximizing the utilization of their existing resources. Manage your skilled workforce, equipment inventory, and raw materials through our comprehensive partner web application.
               </p>
 
               <p className='text-lg text-gray-700 leading-relaxed font-light'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at semper elit, id
-                condimentum leo. Aenean erat lorem, laoreet a nisi pharetra, dignissim pretium leo.
-                Praesent a arcu eget erat venenatis efficitur vitae vel ex. Fusce ac faucibus
-                tellus. Praesent gravida, mauris porttitor hendrerit condimentum, nunc felis
-                faucibus felis, ac tristique metus elit nec sem.
+                Track performance analytics, monitor utilization rates, and set dynamic pricing for your resources. Our platform connects you with a broader customer base while providing detailed insights to help you optimize operations and grow your business efficiently.
               </p>
             </div>
           </div>

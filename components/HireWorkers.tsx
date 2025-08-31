@@ -24,16 +24,11 @@ export default function HireWorkers() {
             {/* Main Content */}
             <div className='space-y-6'>
               <p className='text-lg text-gray-700 leading-relaxed font-light'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at semper elit, id
-                condimentum leo. Aenean erat lorem, laoreet a nisi pharetra, dignissim pretium leo.
+                Finding reliable skilled workers has never been easier. PickAxe's client mobile app connects you with verified professionals in your area, from plumbers and electricians to carpenters and technicians, all at your fingertips.
               </p>
 
               <p className='text-lg text-gray-700 leading-relaxed font-light'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at semper elit, id
-                condimentum leo. Aenean erat lorem, laoreet a nisi pharetra, dignissim pretium leo.
-                Praesent a arcu eget erat venenatis efficitur vitae vel ex. Fusce ac faucibus
-                tellus. Praesent gravida, mauris porttitor hendrerit condimentum, nunc felis
-                faucibus felis, ac tristique metus elit nec sem.
+                Search by skill type, location, and availability to find the perfect match for your project. Track your job progress in real-time, communicate directly with workers, and rate your experience to help build our trusted community of verified professionals.
               </p>
             </div>
           </div>

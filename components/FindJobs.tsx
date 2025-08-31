@@ -22,16 +22,11 @@ export default function FindJobs() {
           {/* Right Column - Content */}
           <div className='space-y-6'>
             <p className='text-lg text-gray-700 leading-relaxed'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at semper elit, id
-              condimentum leo. Aenean erat lorem, laoreet a nisi pharetra, dignissim pretium leo.
+              PickAxe empowers skilled workers with complete control over their schedule and career. Our mobile app puts job opportunities directly in your hands, allowing you to accept or decline requests based on your availability and preferences.
             </p>
 
             <p className='text-lg text-gray-700 leading-relaxed'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at semper elit, id
-              condimentum leo. Aenean erat lorem, laoreet a nisi pharetra, dignissim pretium leo.
-              Praesent a arcu eget erat venenatis efficitur vitae vel ex. Fusce ac faucibus tellus.
-              Praesent gravida, mauris porttitor hendrerit condimentum, nunc felis faucibus felis,
-              ac tristique metus elit nec sem.
+              From plumbers and electricians to carpenters and technicians, skilled professionals can manage their online/offline status, receive real-time job notifications, and track their progress with clients. Build your reputation through our rating system and enjoy flexible scheduling that works around your life, not the other way around.
             </p>
           </div>
         </div>

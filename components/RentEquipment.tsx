@@ -22,16 +22,11 @@ export default function RentEquipment() {
           {/* Right Column - Content */}
           <div className='space-y-6'>
             <p className='text-lg text-gray-700 leading-relaxed'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at semper elit, id
-              condimentum leo. Aenean erat lorem, laoreet a nisi pharetra, dignissim pretium leo.
+              Need heavy equipment for your project? PickAxe makes it simple to find and rent construction equipment, tools, and machinery from trusted providers in your area. Search by location and availability to find exactly what you need, when you need it.
             </p>
 
             <p className='text-lg text-gray-700 leading-relaxed'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at semper elit, id
-              condimentum leo. Aenean erat lorem, laoreet a nisi pharetra, dignissim pretium leo.
-              Praesent a arcu eget erat venenatis efficitur vitae vel ex. Fusce ac faucibus tellus.
-              Praesent gravida, mauris porttitor hendrerit condimentum, nunc felis faucibus felis,
-              ac tristique metus elit nec sem.
+              For equipment owners and businesses, PickAxe transforms your underutilized assets into revenue streams. Our platform makes it easy to list your equipment, manage availability, set pricing, and connect with customers who need your tools, turning idle inventory into profitable opportunities.
             </p>
           </div>
         </div>

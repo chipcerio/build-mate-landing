@@ -11,16 +11,11 @@ export default function Mission() {
           {/* Right Column - Content */}
           <div className='space-y-6'>
             <p className='text-lg text-gray-700 leading-relaxed'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at semper elit, id
-              condimentum leo. Aenean erat lorem, laoreet a nisi pharetra, dignissim pretium leo.
+              To democratize access to skilled services and resources by creating a trusted, efficient marketplace that benefits both service seekers and providers while maximizing utilization of underused business resources.
             </p>
 
             <p className='text-lg text-gray-700 leading-relaxed'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at semper elit, id
-              condimentum leo. Aenean erat lorem, laoreet a nisi pharetra, dignissim pretium leo.
-              Praesent a arcu eget erat venenatis efficitur vitae vel ex. Fusce ac faucibus tellus.
-              Praesent gravida, mauris porttitor hendrerit condimentum, nunc felis faucibus felis,
-              ac tristique metus elit nec sem.
+              We connect the general public with skilled workers, equipment rentals, raw materials suppliers, and business partners through our comprehensive platform. Our goal is to make finding reliable services simple, transparent, and accessible to everyone while helping skilled professionals grow their businesses and maximize their potential.
             </p>
           </div>
         </div>
