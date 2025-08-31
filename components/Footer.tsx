@@ -15,8 +15,8 @@ export default function Footer() {
                 <span className='text-xl font-bold text-gray-900'>PickAxe DH</span>
               </div>
               <p className='text-gray-600 text-sm leading-relaxed'>
-                Lorem ipsum dolor sit amet, consectetur. Egestas cursus commodo consequat id.
-                Consectetur sed eget dolor.
+                Connecting skilled workers with those who need their expertise. Your trusted marketplace
+                for services, equipment, and materials.
               </p>
             </div>
 

@@ -10,7 +10,7 @@ export default function Membership() {
             Become a PickAxe member
           </h2>
           <p className='text-gray-600 text-sm'>
-            Pellentesque congue justo sed ex pretium, vitae ornare lorem hendrerit.
+            Choose your role and join thousands of users connecting through PickAxe's trusted marketplace.
           </p>
         </div>
 
