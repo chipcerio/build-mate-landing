@@ -2,6 +2,7 @@
 
 import { X, Phone, Calendar, User, Building } from 'lucide-react';
 import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 interface ContactModalProps {
   isOpen: boolean;
@@ -19,12 +20,65 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
     projectType: '',
     urgency: 'normal'
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'success' | 'error' | null>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // TODO: Implement form submission logic
-    console.log('Form submitted:', { inquiryType, ...formData });
+  const resetForm = () => {
+    setInquiryType('');
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      company: '',
+      message: '',
+      projectType: '',
+      urgency: 'normal'
+    });
+    setSubmitStatus(null);
+    setIsSubmitting(false);
+  };
+
+  const handleClose = () => {
+    resetForm();
     onClose();
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setSubmitStatus(null);
+
+    try {
+      const templateParams = {
+        to_email: 'digitalhorizon073@gmail.com',
+        from_name: formData.name,
+        from_email: formData.email,
+        phone: formData.phone,
+        company: formData.company || 'Not specified',
+        inquiry_type: inquiryType === 'need-work' ? 'I need work done' : 'I want to offer services',
+        project_type: formData.projectType || 'Not specified',
+        urgency: formData.urgency,
+        message: formData.message,
+        subject: `New Contact Form Submission - ${inquiryType === 'need-work' ? 'Work Request' : 'Service Offer'}`
+      };
+
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+        templateParams,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+      );
+
+      setSubmitStatus('success');
+      setTimeout(() => {
+        handleClose();
+      }, 2000);
+    } catch (error) {
+      console.error('Email sending failed:', error);
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -48,7 +102,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
         <div className="flex items-center justify-between p-6 border-b border-gray-200">
           <h2 className="text-2xl font-bold text-gray-900">Get in Touch</h2>
           <button
-            onClick={onClose}
+            onClick={handleClose}
             className="text-gray-400 hover:text-gray-600 transition-colors"
           >
             <X className="w-6 h-6" />
@@ -247,21 +301,47 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
             </div>
           </div>
 
+          {/* Status Messages */}
+          {submitStatus === 'success' && (
+            <div className="p-4 bg-green-50 border border-green-200 rounded-lg">
+              <div className="flex items-center space-x-2">
+                <div className="w-5 h-5 bg-green-500 rounded-full flex items-center justify-center">
+                  <span className="text-white text-xs">✓</span>
+                </div>
+                <span className="text-green-800 font-medium">Message sent successfully!</span>
+              </div>
+              <p className="text-green-700 text-sm mt-1">We'll get back to you within 24 hours.</p>
+            </div>
+          )}
+
+          {submitStatus === 'error' && (
+            <div className="p-4 bg-red-50 border border-red-200 rounded-lg">
+              <div className="flex items-center space-x-2">
+                <div className="w-5 h-5 bg-red-500 rounded-full flex items-center justify-center">
+                  <span className="text-white text-xs">✗</span>
+                </div>
+                <span className="text-red-800 font-medium">Failed to send message</span>
+              </div>
+              <p className="text-red-700 text-sm mt-1">Please try again or contact us directly at digitalhorizon073@gmail.com</p>
+            </div>
+          )}
+
           {/* Submit Button */}
           <div className="flex justify-end space-x-3">
             <button
               type="button"
-              onClick={onClose}
-              className="px-6 py-2 text-gray-700 bg-gray-100 rounded-md hover:bg-gray-200 transition-colors"
+              onClick={handleClose}
+              disabled={isSubmitting}
+              className="px-6 py-2 text-gray-700 bg-gray-100 rounded-md hover:bg-gray-200 transition-colors disabled:opacity-50"
             >
               Cancel
             </button>
             <button
               type="submit"
-              disabled={!isFormValid()}
+              disabled={!isFormValid() || isSubmitting}
               className="px-6 py-2 bg-pickaxe-blue text-white rounded-md hover:bg-pickaxe-blue/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              Send Message
+              {isSubmitting ? 'Sending...' : 'Send Message'}
             </button>
           </div>
         </form>
