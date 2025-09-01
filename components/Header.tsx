@@ -2,9 +2,11 @@
 
 import { ChevronDown, MapPinned } from 'lucide-react';
 import { useState } from 'react';
+import ContactModal from './ContactModal';
 
 export default function Header() {
   const [isLocationOpen, setIsLocationOpen] = useState(false);
+  const [isContactModalOpen, setIsContactModalOpen] = useState(false);
 
   return (
     <header className='bg-white shadow-sm border-b border-gray-100'>
@@ -38,36 +40,20 @@ export default function Header() {
 
           {/* Country Selector and Contact Button */}
           <div className='flex items-center space-x-4'>
-            {/* <div className='relative'>
-              <button
-                onClick={() => setIsLocationOpen(!isLocationOpen)}
-                className='flex items-center space-x-2 text-gray-700 hover:text-pickaxe-blue transition-colors'>
-                <MapPinned className='w-5 h-5' />
-                <span>Location</span>
-                <ChevronDown className='w-4 h-4' />
-              </button>
-
-              {isLocationOpen && (
-                <div className='absolute top-full right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg z-50'>
-                  <div className='py-2'>
-                    <a href='#' className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50'>
-                      Cebu City
-                    </a>
-                    <a href='#' className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50'>
-                      Tagbilaran City
-                    </a>
-                    <a href='#' className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50'>
-                      Panglao
-                    </a>
-                  </div>
-                </div>
-              )}
-            </div> */}
-
-            <button className='btn-primary'>Contact us</button>
+            <button 
+              onClick={() => setIsContactModalOpen(true)}
+              className='btn-primary'
+            >
+              Contact us
+            </button>
           </div>
         </div>
       </div>
+      
+      <ContactModal
+        isOpen={isContactModalOpen}
+        onClose={() => setIsContactModalOpen(false)}
+      />
     </header>
   );
 }
