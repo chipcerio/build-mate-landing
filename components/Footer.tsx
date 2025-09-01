@@ -99,7 +99,7 @@ export default function Footer() {
 
             {/* Copyright */}
             <p className='text-gray-500 text-sm'>
-              2025 © DigitalHorizon Inc. | All Rights Reserved
+              2025 © Digital Horizon Solutions Inc. | All Rights Reserved
             </p>
           </div>
         </div>
